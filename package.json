@@ -1,0 +1,17 @@
+{
+  "name": "nyra-bot",
+  "version": "1.0.0",
+  "description": "Nyra - a simple high-quality music bot for Discord",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "14.27.0",
+    "dotenv": "16.4.5",
+    "kazagumo": "3.4.3",
+    "shoukaku": "4.3.0"
+  }
+}
